@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="76edd93afacc4536829f828da553ba98" Name="Diagram1">
+      <Diagram DiagramId="76edd93afacc4536829f828da553ba98" Name="Diagram1" ZoomLevel="74">
         <EntityTypeShape EntityType="libModel.author" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="libModel.category" Width="1.5" PointX="4.25" PointY="0.875" IsExpanded="true" />
         <EntityTypeShape EntityType="libModel.publisher" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
@@ -14,7 +14,7 @@
         <AssociationConnector Association="libModel.FK_book_category" />
         <AssociationConnector Association="libModel.FK_book_publisher" />
         <EntityTypeShape EntityType="libModel.issuebook" Width="1.5" PointX="5.375" PointY="5.75" />
-        <EntityTypeShape EntityType="libModel.returnbook" Width="1.5" PointX="0.75" PointY="6.75" />
+        <EntityTypeShape EntityType="libModel.returnbook" Width="1.5" PointX="2.875" PointY="5.875" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
